@@ -10,7 +10,7 @@ prime_king = divisor.primes(10000)
 product = 1
 for i in prime_king:
 	product = product*i
-	if product >10000000000:
-		product = product%10000000000
+	if product >1e10:
+		product = product%int(1e10)
 
 print sum([int(business) for business in str(product)])
