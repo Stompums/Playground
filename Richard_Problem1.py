@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 """
 What's the sum of the last ten digits of the product of the set of primes less than ten thousand?
